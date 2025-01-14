@@ -1,0 +1,210 @@
+.bod{
+
+display: flex;
+width: 100%;
+height: 90vh;
+
+}
+
+.res{
+
+display: flex;
+width: 100%;
+height:100%;
+border: 1px solid yellow;
+padding: 10px;
+gap: 10px;
+
+
+
+}
+
+
+.left{
+    display: flex;
+    width: 25%;
+    background-color: aqua;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    }
+.right{
+
+    display: flex;
+    width:75%;
+    background-color: red;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    
+}
+
+
+@media screen and (max-width : 576px) {
+
+    .res{
+
+        flex-direction: column;
+        
+    }
+
+    .left{
+width: 100%;
+height: 25%;
+
+    }
+    .right{
+width: 100%;
+height: 75%;
+
+    }
+    
+}
+
+.main-gid{
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+margin-top: 50px;
+
+}
+.layout{
+
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.size{
+
+    display: flex;
+    width: 100%;
+}
+.size img{
+    width: 100%;
+}
+.text{
+display:flex;
+width: 100%;
+
+}
+.main-text{
+
+    display: flex;
+    width: 100%;
+background-color:yellowgreen;
+    padding: 10px;
+    gap: 10px;
+}
+.main-text .con{
+
+display: flex;
+width: 50%;
+
+}
+.con img{
+
+    width: 100%;
+}
+.main-text .con2{
+
+    font-size: 2em;
+    width: 50%;
+}
+.con2 button{
+font-size: 1em;
+background-color: blue;
+
+}
+
+@media screen and (max-width : 576px) {
+
+    .main-text{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-text .con{
+        display: flex;
+        width: 100%;
+    }
+    .con img{
+
+width: 100%;
+
+    }
+    .main-text .con2{
+        
+        width: 100%;
+    }
+    
+}
+
+
+
+.text1{
+    display:flex;
+    width: 100%;
+    
+    }
+    .main-text1{
+    
+        display: flex;
+        width: 100%;
+    background-color:aqua;
+        padding: 10px;
+        gap: 10px;
+    }
+    .main-text1 .con4{
+    
+    display: flex;
+    width: 50%;
+    
+    }
+    .con4 img{
+    
+        width: 100%;
+    }
+    .main-text1 .con3{
+    
+        font-size: 2em;
+        width: 50%;
+    }
+    .con3 button{
+    font-size: 1em;
+    background-color: blue;
+    
+    }
+
+    @media screen and (max-width : 576px) {
+
+        .main-text1{
+
+            display: flex;
+            width: 100%;
+            flex-direction:column-reverse;
+        }
+        .main-text1 .con3{
+
+            width: 100%;
+        }
+
+        .main-text1 .con4{
+
+            display: flex;
+            width: 100%;
+        }
+
+        .con4 img{
+
+            width: 100%;
+        }
+        
+    }
+
+
+    
+    
+

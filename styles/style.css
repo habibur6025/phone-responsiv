@@ -33,3 +33,26 @@ gap: 20px;
     }
     
 }
+
+
+.show{
+
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main-show{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: red;
+}
+.main-show a{
+
+    text-decoration: none;
+    color: black;
+}
