@@ -49,11 +49,12 @@ gap: 20px;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    background-color: red;
+    
     
 }
 .main-show a{
 
     text-decoration: none;
     color: black;
+    background-color: lightcoral;
 }
