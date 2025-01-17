@@ -382,6 +382,47 @@ width: 33.33%;
         }
     
 
+        
 }  
+
+
+.linkr{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkr1 a{
+
+    
+    color: brown;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:576px){
+
+
+    .linkr{
+      max-width: 575px;
+      height: 300px;
+      border: 1px solid yellow;
+        margin-top: 400px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .linkr1 a{
+
+        
+        font-size: 1.8rem;
+        color:brown;
+    }
+
+    
+}
     
 
