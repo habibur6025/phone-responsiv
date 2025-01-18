@@ -54,7 +54,6 @@ gap: 20px;
 }
 .main-show a{
 
-    text-decoration: none;
-    color: black;
-    background-color: lightcoral;
+    
+    color: lightcoral;
 }

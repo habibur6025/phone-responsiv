@@ -378,6 +378,7 @@ width: 33.33%;
         .main-imge, .main-parat, .main-imge3{
     
     width:100%;
+    height: auto;
     
         }
     
@@ -408,7 +409,7 @@ width: 33.33%;
       max-width: 575px;
       height: 300px;
       border: 1px solid yellow;
-        margin-top: 400px;
+        margin-top:420px;
         margin-bottom: 0px;
         display: flex;
         justify-content: center;
